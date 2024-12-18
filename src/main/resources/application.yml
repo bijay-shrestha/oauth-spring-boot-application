@@ -7,7 +7,7 @@ spring:
             client-id: Ov23libY7Z5ZwQBfO4c7
             client-secret: 97dfea6ea03f162a0e0a27a4110c2d4a969e55a5
             scope: read:user
-            redirect-uri: "{baseUrl}/login/oauth2/code/github"
+            redirect-uri: "http://localhost:8080/login/oauth2/code/github"
             client-authentication-method: basic
             authorization-grant-type: authorization_code
         provider:
